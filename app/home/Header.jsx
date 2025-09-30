@@ -10,11 +10,11 @@ import { MdHealthAndSafety } from "react-icons/md";
 
 const links = [
   { name: "Home",  icon:<FaHome /> ,  href: "/" },
-  { name: "Healthy Eatings", icon: <MdHealthAndSafety />,  href: "/About" },
-  { name: "News",  icon: <GiNewspaper />, href: "/Experience" },
-  { name: "Features",  icon:<IoStar /> , href: "Portfolio" },
-  { name: "Shop",  icon: <FaShoppingCart /> , href: "/services" },
-  { name: "Contact", icon: <BiSolidContact /> ,  href: "/contact" },
+  { name: "Healthy Eatings", icon: <MdHealthAndSafety />,  href: "#" },
+  { name: "News",  icon: <GiNewspaper />, href: "#" },
+  { name: "Features",  icon:<IoStar /> , href: "#" },
+  { name: "Shop",  icon: <FaShoppingCart /> , href: "#" },
+  { name: "Contact", icon: <BiSolidContact /> ,  href: "#" },
 ];
 
 const Header = () => {
